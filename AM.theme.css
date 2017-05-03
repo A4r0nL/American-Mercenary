@@ -693,7 +693,7 @@ body {
     background-color: rgba(50, 50, 50, 0.4);
 }
 .new-messages-bar button {
-    background-color: #ffff00 !important;/*************/
+    background-color: #005fff !important;/* barre nouveaux messages */
     color: #990000 !important;
     margin-top: 13px !imp;
 }
