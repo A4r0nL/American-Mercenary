@@ -8,7 +8,8 @@
 
 /*** tester 
 rgba(255, 102, 0,     orange   16
-ffff00        jaune    22
+ffff00        jaune    25
+660099        Violet   14
 
 ***/
 
@@ -125,7 +126,7 @@ body {
     border: 1px solid rgba(50, 50, 50, 0.0) !important;
 }
 .voice-connection-channel {
-    color: #ffff00; /***********/
+    color: #660099; /***********/
     font-size: 12px;
 }
 .inline {
@@ -140,15 +141,15 @@ body {
 /*Buttons*/
 
 .badge {
-    background-color: #ffff00;/**********/
+    background-color: #660099;/**********/
     border: 1px solid rgba(50, 50, 50, 0.5);
-    color: #ffff00;
+    color: #660099;
 }
 .channel.channel-text.unread a {
     background: transparent !important;
 }
 .markup {
-    color: #ffff00;/**************/
+    color: #660099;/**************/
     font-size: 16px;
 }
 .markup a {
@@ -161,8 +162,8 @@ body {
     background-color: rgba(50, 50, 50, 0.2) !important;
 }
 .notice {
-    background-color: #ffff00;/************/
-    color: #ffff00; /**************/
+    background-color: #660099;/************/
+    color: #660099; /**************/
 }
 .channel-members h2 {
     border-radius: 10px;
@@ -175,10 +176,10 @@ body {
     font-size: 13px;
 }
 .ider span {
-    background-color: #ffff00;/*************/
+    background-color: #660099;/*************/
     margin-top: 5px;
     margin-bottom: 5px;
-    color: #ffff00; /**********/
+    color: #660099; /**********/
 }
 ::-webkit-input-placeholder {
     
@@ -193,7 +194,7 @@ body {
 .hljs {
     background: transparent;
     border-radius: 8px !important;
-    color: #ffff00 !important; /*************/
+    color: #660099 !important; /*************/
     font-size: 16px !important;
     font-style: normal;
     font-weight: normal;
@@ -217,7 +218,7 @@ body {
     font-size: 12px !important;
 }
 .topic.topic-expandable a {
-    color: #ffff00 !important;/*************/
+    color: #660099 !important;/*************/
 }
 .topic.topic-expandable:hover {
     color: rgba(255, 102, 0, 0.8) !important; /*******************/
@@ -250,7 +251,7 @@ body {
 }
 .links li a {
     margin-left: 1.2vw !important;
-    color: #ffff00 !important;/**************/
+    color: #660099 !important;/**************/
 }
 .guild-channels header {
     overflow: hidden !important;
@@ -552,7 +553,7 @@ body {
 }
 
 .highlight {
-    color: #ffff00 !important;/**************/
+    color: #660099 !important;/**************/
 }
 .highlight:hover {
     background-color: rgba(50, 50, 50, 0.3) !important;
@@ -568,7 +569,7 @@ body {
     background-color: rgba(153, 0, 0, 0.9);
 }
 .friends-online {
-    color: #ffff00; /*************/
+    color: #660099; /*************/
 }
 .guild-separator {
     border-top: 2px solid rgba(153, 0, 0, 0.5);
@@ -693,12 +694,12 @@ body {
     background-color: rgba(50, 50, 50, 0.4);
 }
 .new-messages-bar button {
-    background-color: #005fff !important;/* barre nouveaux messages */
+    background-color: #990000 !important;/* barre nouveaux messages */
     color: #990000 !important;
     margin-top: 13px !imp;
 }
 span.bot-tag {
-    background-color: #ffff00 !important;/***********/
+    background-color: #660099 !important;/***********/
 }
 
 
@@ -1081,13 +1082,13 @@ li div span {
     color: rgba(153, 0, 0, 0.9) !important;
 }
 .action.create {
-    background-color: #00ffff !important; /*******/
+    background-color: #ffff00 !important; /*******/
 }
 .action.join {
-    background-color: #00ffff !important; /******/
+    background-color: #ffff00 !important; /******/
 }
 code.hljs {
-    color: #00ffff !important;/**************/
+    color: #ffff00 !important;/**************/
 }
 .account .btn-settings:hover:after {
     -webkit-mask-image: url(/assets/60f6b0788a5d9394b44261ef5d8ecffc.svg);
@@ -1132,8 +1133,8 @@ div.add-friend-popout header {
     background-color: #990000 !important;
 }
 div.notice {
-    background-color: #00ffff !important;/************/
-    color: #00ffff !important;/***********/
+    background-color: #ffff00 !important;/************/
+    color: #ffff00 !important;/***********/
 }
 div.tab-bar-item {
     background: transparent !important;
@@ -1161,8 +1162,8 @@ button.btn.btn-default {
     height: 50px !important;
     width: 50px !important;
 }
-#bd-pane .scroller-wrap div[style*="background:#00ffff; color:#00ffff; height:30px; position:absolute; bottom:0; left:0; right:0;"] {/********************/
-    background: #00ffff !important; /**********/
+#bd-pane .scroller-wrap div[style*="background:#ffff00; color:#ffff00; height:30px; position:absolute; bottom:0; left:0; right:0;"] {/********************/
+    background: #ffff00 !important; /**********/
 }
 #bd-pane > div > div > div.bd-settings > div:nth-child(6) > span:nth-child(1) {
     color: #ff0000;/*Version betterdiscord*/
@@ -1376,11 +1377,11 @@ div[data-bd="backdrop"] {
 
 
 #rmenu {
-    background: #00ffff !important; /***********/
-    border: 1px solid #00ffff;/*************/
+    background: #ffff00 !important; /***********/
+    border: 1px solid #ffff00;/*************/
 }
 .emoji-picker .search-bar input {
-    border: 1px solid #00ffff;/************/
+    border: 1px solid #ffff00;/************/
     -webkit-animation: searchpulse 2s infinite;
     animation: searchpulse 2s infinite;
 }
@@ -1426,8 +1427,8 @@ div[data-bd="backdrop"] {
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
 .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
-    border: 1px solid #00ffff !important;/***********/
-    background: #00ffff !important;/*************/
+    border: 1px solid #ffff00 !important;/***********/
+    background: #ffff00 !important;/*************/
 }
 .guild-settings-modal-members {
     border: 1px solid rgba(50, 50, 50, .5) !important;/*contours ban et membres*/
